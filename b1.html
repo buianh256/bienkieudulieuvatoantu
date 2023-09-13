@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 1</title>
+</head>
+<body>
+<script>
+    let inputVatly;
+    let inputHoahoc;
+    let inputSinhhoc;
+    inputVatly =prompt("Nhập điểm Vật lý");
+    inputHoahoc =prompt("Nhập điểm Hóa Học");
+    inputSinhhoc =prompt("Nhập điểm Sinh Học");
+    let Vatly = parseInt(inputVatly);
+    let Hoahoc = parseInt(inputHoahoc);
+    let Sinhhoc = parseInt(inputSinhhoc);
+    let Tổng = Vatly + Hoahoc + Sinhhoc;
+    let ĐTB = (Vatly + Hoahoc + Sinhhoc)/3;
+    document.write("Điểm tổng 3 môn  " + Tổng);
+    document.write("<br>");
+    document.write("Điểm trung bình " + ĐTB);
+
+</script>
+</body>
+</html>
